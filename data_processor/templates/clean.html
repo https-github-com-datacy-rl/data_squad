@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clean File</title>
+</head>
+<body>
+    <h2>Clean {{ filename }}</h2>
+    <form action="" method="post">
+        <label for="filename">Enter filename to curate:</label>
+        <input type=text name=filename required>
+
+        <label for="operation">Choose an operation:</label>
+        <select name="operation" id="operation">
+            <option value="remove_duplicates">Remove Duplicates</option>
+            <option value="fill_missing_values_with_zeros">Fill Missing Values With Zeros</option>
+            <option value="fill_missing_values_with_previous">Fill Missing Values With Previous</option>
+            <option value="fill_missing_values_with_next">Fill Missing Values With Next</option>
+            <option value="drop_rows_with_nan">Drop Rows With NAN</option>
+            <option value="drop_rows_with_all_nan">Drop Rows Which Have all NAN</option>
+            <option value="drop_columns_with_nan">Drop Columns With NAN</option>
+            <!-- Add more options here based on implemented functions -->
+        </select>
+        <input type="submit" value="Apply">
+    </form>
+<!-- Link to go back to the home page -->
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Downloads</title>
+</head>
+<body>
+    <h2>Available Files for Download</h2>
+    <ul>
+        {% for file in files %}
+        <li>
+            <a href="{{ url_for('download_file', filename=file) }}">{{ file }}</a>
+            {% if file.endswith('.csv') %}
+            | <a href="{{ url_for('preview_csv', filename=file) }}">Preview</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% for image_file in image_files %}
+    <div>
+        <h3>{{ image_file }}</h3>
+        <img src="{{ url_for('static', filename='images/raw/' + image_file) }}" alt="{{ image_file }}" style="width: 200px;">
+    </div>
+    {% endfor %}
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>

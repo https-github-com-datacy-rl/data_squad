@@ -1,2 +1,2 @@
-# data_squad
-A repository to learn python and collaborate on data-related projects.
+# data_navigator
+The repository for Data Navigator team of Datacy's internship and training.
