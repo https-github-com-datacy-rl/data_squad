@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data_processor",
+    "\\interview_questions",
+    "\\machine_learning",
+    "\\powerbi",
+    "\\python_for_data_science",
+    "\\python_tutorials"
   ],
-  "SelectedNode": "\\C:\\Users\\bunmi\\Source\\Repos\\data_squad",
   "PreviewInSolutionExplorer": false
 }
