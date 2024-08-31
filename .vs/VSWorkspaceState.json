@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data_processor",
-    "\\interview_questions",
-    "\\machine_learning",
-    "\\powerbi",
-    "\\python_for_data_science",
-    "\\python_for_data_science\\lesson_03",
-    "\\python_tutorials"
+    "\\python_for_data_science"
   ],
   "PreviewInSolutionExplorer": false
 }
